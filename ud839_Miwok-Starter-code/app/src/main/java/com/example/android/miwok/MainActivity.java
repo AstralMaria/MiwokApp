@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(numbersIntent);
             }
         });
-TextView family = (TextView) findViewById(R.id.numbers);
+        TextView family = (TextView) findViewById(R.id.family);
         // Set a click listener on that View
         family.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers View is clicked on.
@@ -70,7 +70,7 @@ TextView family = (TextView) findViewById(R.id.numbers);
 
         TextView phrases = (TextView) findViewById(R.id.phrases);
         // Set a click listener on that View
-        colors.setOnClickListener(new View.OnClickListener() {
+        phrases.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
