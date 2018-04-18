@@ -15,6 +15,7 @@
  */
 package com.example.android.miwok;
 import java.text.NumberFormat;
+import java.util.ArrayList;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
-
+        ArrayList<Word> word = new ArrayList<>();
         // Find the View that shows the numbers category
         TextView numbers = (TextView) findViewById(R.id.numbers);
 
